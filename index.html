@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Website Portfoli Landing Page</title>
+    <!-- icon -->
+    <link rel="icon" type="img/svg" href="img/angry.svg">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" integrity="sha512-kJ30H6g4NGhWopgdseRb8wTsyllFUYIx3hiUwmGAkgA9B/JbzUBDQVr2VVlWGde6sdBVOG7oU8AL35ORDuMm8g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+</head>
+<body>
+
+    <!-- navbar -->
+    <header id="navbar">
+        <div class="logo">
+            <a href="" class="logo">yonn</a>
+        </div>
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">MyTeam</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggle();">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+    <!-- end navbar -->
+    <!-- content -->
+   <div class="content">
+        <h2>Hello <br>I'm <span>Pamungkas</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolorem culpa harum, molestias id hic nesciunt quidem temporibus? Quam sunt est officia quia laudantium rerum id quisquam dolor, deserunt debitis.</p>
+        <div class="bars">
+            <div class="line"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <a href="" class="btn">About Me</a>
+        <a href="" class="btn2">My Gallery</a>
+    </div>
+    <!-- content -->
+    <!-- icon -->
+    <div class="icon">
+        <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+    <!-- end icon -->
+
+
+
+    <script>
+        function toggle() {
+            var nav = document.getElementById('navbar');    
+            nav.classList.toggle('active');     
+        }
+
+    </script>
+</body>
+</html>
